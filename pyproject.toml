@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "chatgpt-tools"
+version = "0.1.0"
+description = "Playground tools for interaction with ChatGPT"
+authors = ["DipodDP <dipoddp@gmail.com>"]
+readme = "README.md"
+packages = [{include = "chatgpt_tools"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.0.209"
+openai = "^0.27.8"
+environs = "^9.5.0"
+chromadb = "^0.3.26"
+unstructured = "^0.7.8"
+tiktoken = "^0.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
